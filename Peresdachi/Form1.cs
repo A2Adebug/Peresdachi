@@ -79,7 +79,7 @@ namespace Peresdachi
             if (char.IsLetter(e.KeyChar)) return;
             e.Handled = true;
         }
-
+        //
         private void textBoxSecondNameReg_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((char)e.KeyChar == (Char)Keys.Back) return;
